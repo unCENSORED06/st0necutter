@@ -15,12 +15,12 @@ export const appConfig = {
 
   // flavor of HU hat icon to display
   // accepted values are "normal", "beta", "dev" (default is "dev")
-  hatBadge: "dev",
+  hatBadge: "normal",
 
   // FRONTEND LISTENING ADDRESS
   // an http server will be created on this host & port
   host: "localhost",
-  port: 8080,
+  port: 80,
 
   // specifies a mirror for the theatre api
   // this mirror is used if there are no database credentials
@@ -61,8 +61,8 @@ export const appConfig = {
   // optionally string
   // strings are also acceptable
 
-  // local postgresql server:
-  //db: "postgresql://user:secret@127.0.0.1/dbname",
+   local postgresql server:
+  db: "postgresql://user:secret@127.0.0.1/dbname",
 
   //db: {
   //  user: "user",
