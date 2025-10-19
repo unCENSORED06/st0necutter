@@ -61,8 +61,8 @@ export const appConfig = {
   // optionally string
   // strings are also acceptable
 
-   local postgresql server:
-  db: "postgresql://user:secret@127.0.0.1/dbname",
+  // local postgresql server:
+//  db: "postgresql://user:secret@127.0.0.1/dbname",
 
   //db: {
   //  user: "user",
